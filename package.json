@@ -18,7 +18,11 @@
     "start": "node dist/server/node-build.mjs",
     "test": "vitest --run",
     "format.fix": "prettier --write .",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "deploy": "./scripts/deploy.sh",
+    "deploy:vercel": "./scripts/deploy.sh vercel",
+    "deploy:netlify": "./scripts/deploy.sh netlify",
+    "deploy:local": "./scripts/deploy.sh local"
   },
   "dependencies": {
     "express": "^4.18.2",
