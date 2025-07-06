@@ -1,11 +1,8 @@
-name: Deploy to Vercel (Legacy - Disabled)
+name: Deploy to Vercel (Simple)
 
 on:
-  # Desabilitado - usando deploy-vercel-simple.yml
-  # push:
-  #   branches: [ main ]
-  # pull_request:
-  #   branches: [ main ]
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -34,10 +31,6 @@ jobs:
     - name: Deploy to Vercel
       if: github.ref == 'refs/heads/main'
       uses: amondnet/vercel-action@v25
-      env:
-        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
       with:
         vercel-token: ${{ secrets.VERCEL_TOKEN }}
         vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}

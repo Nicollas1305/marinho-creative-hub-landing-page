@@ -1,10 +1,12 @@
 name: Deploy to VPS (Legacy)
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  # Desabilitado temporariamente - usar apenas Vercel
+  # push:
+  #   branches: [ main ]
+  # pull_request:
+  #   branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
