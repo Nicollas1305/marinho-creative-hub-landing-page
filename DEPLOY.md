@@ -114,3 +114,4 @@
 3. **API não funciona:**
    - Verifique se as rotas estão configuradas corretamente
    - Teste localmente com `npm run dev`
+ssdfsdfsd
