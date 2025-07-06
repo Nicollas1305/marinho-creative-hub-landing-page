@@ -98,68 +98,7 @@
    - `VPS_HOST`: IP do seu VPS
    - `VPS_USERNAME`: usuário do VPS
    - `VPS_SSH_KEY`: chave SSH privada
-
-### Opção 3: Netlify (Alternativa)
-
-O projeto já está configurado para Netlify. Para usar:
-
-1. **Conectar ao Netlify:**
-   - Acesse [netlify.com](https://netlify.com)
-   - Importe o repositório
-
-2. **Configurar domínio:**
-   - Vá em "Domain settings"
-   - Adicione seu domínio customizado
-   - Configure os nameservers no name.com
-
-## 🔧 Configuração do Domínio no name.com
-
-1. **Acesse o painel do name.com**
-2. **Vá em "DNS Management"**
-3. **Configure os nameservers:**
-
-   **Para Vercel:**
-   ```
-   ns1.vercel-dns.com
-   ns2.vercel-dns.com
-   ns3.vercel-dns.com
-   ns4.vercel-dns.com
-   ```
-
-   **Para Netlify:**
-   ```
-   dns1.p01.nsone.net
-   dns2.p01.nsone.net
-   dns3.p01.nsone.net
-   dns4.p01.nsone.net
-   ```
-
-   **Para VPS:**
-   - Configure registros A apontando para o IP do seu VPS
-   - Configure registros CNAME para www
-
-## 🚀 Deploy Automático
-
-O GitHub Actions está configurado para:
-- Executar em pushes para a branch `main`
-- Fazer build da aplicação
-- Executar type checking
-- Fazer deploy automático
-
-## 📝 Variáveis de Ambiente
-
-Se necessário, configure as seguintes variáveis no seu provedor de deploy:
-
-```env
-NODE_ENV=production
-```
-
-## 🔍 Monitoramento
-
-- **Vercel:** Dashboard integrado com analytics
-- **VPS:** Configure PM2 para monitoramento
-- **Netlify:** Analytics e logs integrados
-
+   
 ## 🛠️ Troubleshooting
 
 ### Problemas comuns:
@@ -180,5 +119,4 @@ NODE_ENV=production
 
 Para dúvidas sobre deploy, consulte:
 - [Documentação do Vercel](https://vercel.com/docs)
-- [Documentação do Netlify](https://docs.netlify.com)
 - [GitHub Actions](https://docs.github.com/en/actions) 
