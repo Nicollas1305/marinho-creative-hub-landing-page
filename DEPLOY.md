@@ -114,9 +114,3 @@
 3. **API não funciona:**
    - Verifique se as rotas estão configuradas corretamente
    - Teste localmente com `npm run dev`
-
-## 📞 Suporte
-
-Para dúvidas sobre deploy, consulte:
-- [Documentação do Vercel](https://vercel.com/docs)
-- [GitHub Actions](https://docs.github.com/en/actions) 
