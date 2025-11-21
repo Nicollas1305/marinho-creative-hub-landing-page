@@ -1,5 +1,5 @@
 ---
-description: Deploy the app to production using Netlify.
+description: 
 globs: 
 alwaysApply: true
 ---
