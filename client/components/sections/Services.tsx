@@ -30,6 +30,12 @@ const services = [
     title: "Projetos FTTx (Fibra Óptica)",
     description: "Planejamento e implantação de redes com alta performance.",
   },
+  {
+    icon: "🔧",
+    title: "Montagem e Manutenção de Computadores",
+    description:
+      "Montagem personalizada, upgrade de hardware e manutenção preventiva e corretiva.",
+  },
 ];
 
 export default function Services() {
