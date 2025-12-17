@@ -39,7 +39,7 @@ export default function About() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1026&q=80"
+                src="https://cdn.builder.io/api/v1/image/assets%2Fda405737d6b149f78e190783d365357e%2F915031f931614ddeace8d3ee0338d66e?format=webp&width=800"
                 alt="Nicollas Marinho em ação"
                 className="w-full h-full object-cover"
               />
